@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from recovery_logic import recover_files, admin
 
-# --- Function to handle the start button click ---
 def start_recovery():
     """
     Handles the user interaction for starting the file recovery process.
@@ -23,7 +22,6 @@ def start_recovery():
     else:
         messagebox.showinfo("No Files Found", "No recoverable images found.")
 
-# --- Main GUI setup ---
 root = tk.Tk()
 root.title("Nec Divinos")
 root.geometry("400x250")
@@ -35,9 +33,8 @@ drive_dropdown.pack()
 
 recover_button = tk.Button(root, text="Start Recovery", command=start_recovery)
 recover_button.pack(pady=20)
-
-# Check for admin rights before starting the main loop
 if not admin():
     messagebox.showwarning("Admin Rights Needed", "Please run as Administrator for raw disk access.")
+
 
 root.mainloop()
