@@ -17,6 +17,12 @@ How to run:
  3. Navigate to the directory where you want your file retreieved.
  4. Run the script. The time taken for it to complete the retreival depends on how much JPG files were deleted. I experienced a few hours on my run but it can vary from user to user.
 
+Shortcoming:
+ 1. The GUI lags out once the file starts recovering, making the purpose of creating GUI null because it stops being ineractive to the user.
+  Fix: Work on creating a loading bar that shows how much progress has been done. Maybe look into different ways to make a GUI that does not crash.
+ 2. Most of the files takes hours to come out corrupt that defeats the purpose of even using this program.
+  Fix: Find a better rework to the code that makes the file retrieval more effective and useful.
+
 This tool is a basic example of file carving. It may not recover all deleted files and therecovered images may be corrupted or incomplete. The success of the recovery depends on various factos, including how much data has been overwritten since the files were deleted.
 
 Tank you for reading
