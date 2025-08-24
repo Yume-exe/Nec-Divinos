@@ -7,11 +7,11 @@ Features:
  2. Targeted Recovery: specifically designed to find and recover JPG image files.
  3. Disk Scanning: capable of scanning a selected disk partiion.
 
-Prerequisties
+Prerequisties:
  1. Pythoon 3.x
  2. Administrator privileges on Windows machine to access the raw disk data.
 
-How to run
+How to run:
  1. Save the code as a python file.
  2. Open command prompt with administrator permissions.
  3. Navigate to the directory where you want your file retreieved.
