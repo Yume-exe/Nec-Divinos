@@ -12,7 +12,7 @@ Prerequisties:
  2. Administrator privileges on Windows machine to access the raw disk data.
 
 How to run:
- 1. Save the code as a python file.
+ 1. Save the code as a python file (both .py files).
  2. Open command prompt with administrator permissions.
  3. Navigate to the directory where you want your file retreieved.
  4. Run the script. The time taken for it to complete the retreival depends on how much JPG files were deleted. I experienced a few hours on my run but it can vary from user to user.
