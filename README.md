@@ -19,4 +19,4 @@ How to run
 
 This tool is a basic example of file carving. It may not recover all deleted files and therecovered images may be corrupted or incomplete. The success of the recovery depends on various factos, including how much data has been overwritten since the files were deleted.
 
-THank you for reading
+Tank you for reading
